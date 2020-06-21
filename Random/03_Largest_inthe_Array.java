@@ -5,7 +5,7 @@ class Main {
     int m = arr[0];
       for (int i=1; i<arr.length; i++) {
         if (arr[i]>m) {
-                m = arr[i];
+          m = arr[i];
         }
       }
     System.out.println( "The maximum value in the array is : " + m);
